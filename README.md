@@ -17,28 +17,28 @@ A multi-page, user-friendly dashboard for seamless navigation and analysis.
 📂 Project Architecture
 --------------------------
 
-1_🏚️_Home.py:                
+**1_🏚️_Home.py:**
 Main landing page & application entry point
 
-2_🔗_PhishURL Detect.py:   
+**2_🔗_PhishURL Detect.py:**   
 Core detection interface
 
-feature_extraction.py:      
+**feature_extraction.py:**      
 Logic for parsing URL attributes
 
-features.py:                
+**features.py:**                
 Definition of security indicators
 
-phish_model.pkl:            
+**phish_model.pkl:**            
 Pre-trained Random Forest/ML model
 
-vectorizer.pkl:             
+**vectorizer.pkl:**             
 Serialized text processing component
 
-data_collector.py:          
+**data_collector.py:**          
 Script for gathering/updating training data
 
-Pages:                     
+**Pages:**                     
 Supporting application modules
 
 🛠️ Installation & Setup 
@@ -65,7 +65,7 @@ pip install -r requirements.txt
 ----------------
 To launch the application locally, run this following command to the terminal:
 
-streamlit run 1_🏚️_Home.py
+`streamlit run 1_🏚️_Home.py`
 
 1. Open the local URL provided in your terminal (typically http://localhost:8501).
 
@@ -77,11 +77,11 @@ streamlit run 1_🏚️_Home.py
 ------------------------
 The model's accuracy is derived from a diverse training set, including:
 
-Tranco List: Used to establish a baseline for highly reputable, legitimate domains.
+- Tranco List: Used to establish a baseline for highly reputable, legitimate domains.
 
-PhishTank/OpenPhish Data: Sourced from verified phishing databases to train the model on current attack vectors.
+- PhishTank/OpenPhish Data: Sourced from verified phishing databases to train the model on current attack vectors.
 
-Structured CSVs: Processed data files included in the repo for model transparency.
+- Structured CSVs: Processed data files included in the repo for model transparency.
 
 📝 License
 ----------------
