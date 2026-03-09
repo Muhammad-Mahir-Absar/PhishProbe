@@ -1,4 +1,4 @@
-PhishProbe is an intelligent, machine learning-powered web application designed to identify and analyze phishing URLs. Developed with a focus on proactive cybersecurity, this tool provides users with an intuitive interface to verify the legitimacy of suspicious links before they can cause harm.
+PhishProbe is an intelligent, machine-learning web application designed to identify and analyze phishing URLs. Developed with a focus on proactive cybersecurity, this tool provides users with an intuitive interface to verify the legitimacy of suspicious links before they can cause harm.
 
 🚀 Key Features
 -------------------
@@ -16,22 +16,22 @@ A multi-page, user-friendly dashboard for seamless navigation and analysis.
 
 📂 Project Architecture
 --------------------------
-PhishProbe/
-├── 1_🏚️_Home.py                
+
+1_🏚️_Home.py:                
 Main landing page & application entry point
-├── 2_🔗_PhishURL Detect.py    
+2_🔗_PhishURL Detect.py:   
 Core detection interface
-├── feature_extraction.py      
+feature_extraction.py:      
 Logic for parsing URL attributes
-├── features.py                
+features.py:                
 Definition of security indicators
-├── phish_model.pkl            
+phish_model.pkl:            
 Pre-trained Random Forest/ML model
-├── vectorizer.pkl             
+vectorizer.pkl:             
 Serialized text processing component
-├── data_collector.py          
+data_collector.py:          
 Script for gathering/updating training data
-└── Pages/                     
+Pages:                     
 Supporting application modules
 
 🛠️ Installation & Setup 
