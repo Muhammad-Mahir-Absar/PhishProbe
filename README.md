@@ -19,18 +19,25 @@ A multi-page, user-friendly dashboard for seamless navigation and analysis.
 
 1_🏚️_Home.py:                
 Main landing page & application entry point
+
 2_🔗_PhishURL Detect.py:   
 Core detection interface
+
 feature_extraction.py:      
 Logic for parsing URL attributes
+
 features.py:                
 Definition of security indicators
+
 phish_model.pkl:            
 Pre-trained Random Forest/ML model
+
 vectorizer.pkl:             
 Serialized text processing component
+
 data_collector.py:          
 Script for gathering/updating training data
+
 Pages:                     
 Supporting application modules
 
