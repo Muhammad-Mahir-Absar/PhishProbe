@@ -17,11 +17,9 @@ A multi-page, user-friendly dashboard for seamless navigation and analysis.
 📂 Project Architecture
 --------------------------
 
-**1_🏚️_Home.py:**
-Main landing page & application entry point
+**1_🏚️_Home.py:** Main landing page & application entry point
 
-**2_🔗_PhishURL Detect.py:**   
-Core detection interface
+**2_🔗_PhishURL Detect.py:** Core detection interface
 
 **feature_extraction.py:**      
 Logic for parsing URL attributes
