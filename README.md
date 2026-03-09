@@ -1,6 +1,7 @@
 <center>
 
-#PhishProbe 🛡️
+# 🛡️ PhishProbe
+### *A Machine Learning Based Phishing Detection Tool*
 
 </center>
 
