@@ -12,7 +12,7 @@ __Real-time Detection:__  Instantly analyze URLs to determine if they are legiti
 
 __Machine Learning Engine:__ Utilizes a trained model (phish_model.pkl) to make data-driven security assessments.
 
-__Sophisticated Feature Extraction:__ Breaks down URL structures—including domain age, subdomains, and special character patterns—to identify malicious indicators.
+__Sophisticated Feature Extraction:__ Breaks down URL structures—including domain age, subdomains, and special character patterns to identify malicious indicators.
 
 __Interactive Streamlit UI:__ A multi-page, user-friendly dashboard for seamless navigation and analysis.
 
