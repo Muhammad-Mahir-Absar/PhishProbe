@@ -2,17 +2,13 @@ PhishProbe is an intelligent, machine-learning web application designed to ident
 
 🚀 Key Features
 -------------------
-Real-time Detection: 
-Instantly analyze URLs to determine if they are legitimate or phishing attempts.
+__Real-time Detection:__  Instantly analyze URLs to determine if they are legitimate or phishing attempts.
 
-Machine Learning Engine: 
-Utilizes a trained model (phish_model.pkl) to make data-driven security assessments.
+__Machine Learning Engine:__ Utilizes a trained model (phish_model.pkl) to make data-driven security assessments.
 
-Sophisticated Feature Extraction: 
-Breaks down URL structures—including domain age, subdomains, and special character patterns—to identify malicious indicators.
+__Sophisticated Feature Extraction:__ Breaks down URL structures—including domain age, subdomains, and special character patterns—to identify malicious indicators.
 
-Interactive Streamlit UI: 
-A multi-page, user-friendly dashboard for seamless navigation and analysis.
+__Interactive Streamlit UI:__ A multi-page, user-friendly dashboard for seamless navigation and analysis.
 
 📂 Project Architecture
 --------------------------
@@ -21,23 +17,17 @@ A multi-page, user-friendly dashboard for seamless navigation and analysis.
 
 **2_🔗_PhishURL Detect.py:** Core detection interface
 
-**feature_extraction.py:**      
-Logic for parsing URL attributes
+**feature_extraction.py:** Logic for parsing URL attributes
 
-**features.py:**                
-Definition of security indicators
+**features.py:** Definition of security indicators
 
-**phish_model.pkl:**            
-Pre-trained Random Forest/ML model
+**phish_model.pkl:** Pre-trained Random Forest/ML model
 
-**vectorizer.pkl:**             
-Serialized text processing component
+**vectorizer.pkl:** Serialized text processing component
 
-**data_collector.py:**          
-Script for gathering/updating training data
+**data_collector.py:** Script for gathering/updating training data
 
-**Pages:**                     
-Supporting application modules
+**Pages:** Supporting application modules
 
 🛠️ Installation & Setup 
 (N.B: Ensure you have Python 3.10+ installed on your system)
@@ -45,19 +35,19 @@ Supporting application modules
 
 1. Clone the Repository:
 --------------------------
-git clone https://github.com/Muhammad-Mahir-Absar/PhishProbe.git
+`git clone https://github.com/Muhammad-Mahir-Absar/PhishProbe.git`
 
-cd PhishProbe
+`cd PhishProbe`
 
 2. Set Up a Virtual Environment:
 ---------------------------------
-python -m venv venv
+`python -m venv venv`
 
-source venv/bin/activate  # Windows: venv\Scripts\activate
+`source venv/bin/activate`  # Windows: venv\Scripts\activate
 
 3. Install Dependencies:
 -------------------------
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 🖥️ How to Use
 ----------------
