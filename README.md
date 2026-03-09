@@ -34,19 +34,19 @@ __Interactive Streamlit UI:__ A multi-page, user-friendly dashboard for seamless
 -------------------------------------------------------------------------------------
 
 1. Clone the Repository:
---------------------------
+
 `git clone https://github.com/Muhammad-Mahir-Absar/PhishProbe.git`
 
 `cd PhishProbe`
 
 2. Set Up a Virtual Environment:
----------------------------------
+
 `python -m venv venv`
 
-`source venv/bin/activate`  # Windows: venv\Scripts\activate
+`source venv/bin/activate`  # Windows: `venv\Scripts\activate`
 
 3. Install Dependencies:
--------------------------
+
 `pip install -r requirements.txt`
 
 🖥️ How to Use
