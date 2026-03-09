@@ -1,10 +1,10 @@
 <center>
 
-                                                                                 # 🛡️ PhishProbe
+# 🛡️ PhishProbe
 
 </center>
 
-PhishProbe is an intelligent, machine-learning web application designed to identify and analyze phishing URLs. Developed with a focus on proactive cybersecurity, this tool provides users with an intuitive interface to verify the legitimacy of suspicious links before they can cause harm.
+It's an intelligent, machine-learning web application designed to identify and analyze phishing URLs. Developed with a focus on proactive cybersecurity, this tool provides users with an intuitive interface to verify the legitimacy of suspicious links before they can cause harm.
 
 🚀 Key Features
 -------------------
