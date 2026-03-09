@@ -48,11 +48,13 @@ Supporting application modules
 1. Clone the Repository:
 --------------------------
 git clone https://github.com/Muhammad-Mahir-Absar/PhishProbe.git
+
 cd PhishProbe
 
 2. Set Up a Virtual Environment:
 ---------------------------------
 python -m venv venv
+
 source venv/bin/activate  # Windows: venv\Scripts\activate
 
 3. Install Dependencies:
