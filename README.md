@@ -1,29 +1,41 @@
-PhishProbe 🛡️
 PhishProbe is an intelligent, machine learning-powered web application designed to identify and analyze phishing URLs. Developed with a focus on proactive cybersecurity, this tool provides users with an intuitive interface to verify the legitimacy of suspicious links before they can cause harm.
 
 🚀 Key Features
 -------------------
-Real-time Detection: Instantly analyze URLs to determine if they are legitimate or phishing attempts.
+Real-time Detection: 
+Instantly analyze URLs to determine if they are legitimate or phishing attempts.
 
-Machine Learning Engine: Utilizes a trained model (phish_model.pkl) to make data-driven security assessments.
+Machine Learning Engine: 
+Utilizes a trained model (phish_model.pkl) to make data-driven security assessments.
 
-Sophisticated Feature Extraction: Breaks down URL structures—including domain age, subdomains, and special character patterns—to identify malicious indicators.
+Sophisticated Feature Extraction: 
+Breaks down URL structures—including domain age, subdomains, and special character patterns—to identify malicious indicators.
 
-Interactive Streamlit UI: A multi-page, user-friendly dashboard for seamless navigation and analysis.
+Interactive Streamlit UI: 
+A multi-page, user-friendly dashboard for seamless navigation and analysis.
 
 📂 Project Architecture
 --------------------------
 PhishProbe/
-├── 1_🏚️_Home.py                # Main landing page & application entry point
-├── 2_🔗_PhishURL Detect.py     # Core detection interface
-├── feature_extraction.py      # Logic for parsing URL attributes
-├── features.py                # Definition of security indicators
-├── phish_model.pkl            # Pre-trained Random Forest/ML model
-├── vectorizer.pkl             # Serialized text processing component
-├── data_collector.py          # Script for gathering/updating training data
-└── Pages/                     # Supporting application modules
+├── 1_🏚️_Home.py                
+Main landing page & application entry point
+├── 2_🔗_PhishURL Detect.py    
+Core detection interface
+├── feature_extraction.py      
+Logic for parsing URL attributes
+├── features.py                
+Definition of security indicators
+├── phish_model.pkl            
+Pre-trained Random Forest/ML model
+├── vectorizer.pkl             
+Serialized text processing component
+├── data_collector.py          
+Script for gathering/updating training data
+└── Pages/                     
+Supporting application modules
 
-🛠️ Installation & Setup (N.B: Ensure you have Python 3.10+ installed on your system)
+🛠️ Installation & Setup 
+(N.B: Ensure you have Python 3.10+ installed on your system)
 -------------------------------------------------------------------------------------
 
 1. Clone the Repository:
